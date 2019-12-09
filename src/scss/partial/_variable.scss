@@ -1,0 +1,87 @@
+//--------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+// Typography
+// -------------------------
+
+$font-family-base:       'Montserrat', sans-serif;
+$font-base-size:            14px;
+
+$font-family-light:    	    300;
+$font-family-regular:    	400;
+$font-family-semi:          600;
+$font-family-bold:          700;
+
+
+// Component sizing
+// -------------------------
+// Based on 14px font-size and 20px line-height
+
+$font-size-large:         $font-base-size + 4; // ~18px
+$font-size-medium:        $font-base-size + 2; // ~16px
+$font-size-small:         $font-base-size - 2; // ~12px
+$font-size-mini:          $font-base-size - 4; // ~10px
+
+
+// Base Radius
+// -------------------------
+$base-border-radius:      4px !default;
+$border-radius-large:     6px !default;
+$border-radius-small:     3px !default;
+
+// Color Pallate
+// -------------------------
+$body-color:            #6c6b6b;
+$blue:                  #316891;
+$blue-dark:             #4a4dd3;
+$white:                 #ffffff;  
+$primary:               #8bac29;
+$border-color:          #cdcdcd;  
+$gray:                  #cccbcb;
+$gray-darker:           #757575;
+
+// Base Spacings
+// -------------------------
+$margin-none: 			0px !default;
+$margin-base-5: 		5px !default;
+
+$padding-none: 			0px !default;
+$padding-base-5:		5px !default;
+
+
+// Base Heights & Widths
+// -------------------------
+$base-height-auto: 		auto;
+$base-height-full: 		100%;
+$base-min-height:		10px;
+$base-height: 			10px;
+
+$base-width-auto: 		auto;
+$base-width-full: 		100%;
+$base-min-width:		10px;
+$base-width: 			10px;
+
+
+//Common
+$none: 				none;
+$dis-block: 		block;
+$dis-inblock: 		inline-block;
+
+//Positions
+$relative: 			relative;
+$absolute: 			absolute;
+
+// COLORS
+$border-color:      #e0e0e0;
+$border-color-dark: #757575;
+$dark-gray:         #212121;
+$alabaster:         #FAFAFA;
+
+
+//** Breakpoints
+// -------------------------
+$tablet-landscape: 1024px;
+$tablet-portrait:  768px;
+$mobile-width:     767px;
+$mobile-mini:      480px;

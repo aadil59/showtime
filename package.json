@@ -1,0 +1,41 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "A Task assign by BLUESTACK",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "JSON",
+    "|",
+    "Jquery",
+    "UI",
+    "|",
+    "HTML5",
+    "|",
+    "CSS3",
+    "|",
+    "FlexBox",
+    "|",
+    "GULP"
+  ],
+  "author": "Aadil N Khan",
+  "license": "ISC",
+  "homepage": "https://aadil59.github.io/showtime",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gh-pages": "^2.1.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-uglify": "^3.0.0",
+    "modernizr": "^3.7.0",
+    "pump": "^1.0.2",
+    "run-sequence": "^2.1.0"
+  },
+  "devDependencies": {}
+}
