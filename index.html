@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task | Frontend</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+    <main>
+        <!-- HEADER START-->
+        <header class="header">
+            <div class="container">
+                <div class="brand">
+                    <img src="assets/images/logo.png" alt="Brand" title="Brand" />
+                </div>
+                <nav class="navigation-menu">
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </header><!-- </ HEADER END >-->
+
+        <!-- CONTENT MAIN START -->
+        <section class="wrapper-main sec-space">
+            <div class="container">
+                <div class="action-wrap">
+                    <div>
+                        <a href="javascript:void(0);" class="btn btn-primary" id="getPopularmovies">My Movie Library</a>
+                        <a href="javascript:void(0);" class="btn btn-primary show-modal">Search and Add new Movie</a>
+                    </div>
+                    <!-- <div class="filter-dd">--Filter--
+                        <ul class="dd-group">
+                            <li></li>
+                        </ul>
+                    </div> -->
+                    <a href="javascript:void(0);" class="btn btn-primary" id="currentmoviesBtn">Filter - Movies in Theaters Now</a>
+                </div>
+                <h3 class="heading-section"></h3>
+                <div class="movie-list-wrapper">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- </ CONTENT MAIN END > -->
+    </main>
+    <!-- Modal trigger - anchor by default -->
+
+    <!-- The modal, wrapped in an overlay -->
+    <div class="overlay">
+        <div class="modal" id="modal">
+            <!-- close trigger -->
+            <div class="close">
+                <span>X</span>
+            </div>
+            <!-- modal content -->
+            <div class="modal-content">
+                <h4 class="search-heading">Search your Movie</h4>
+                <form class="form" action="" method="post">
+                    <div class="form-group">
+                        <span class="error"></span>
+                        <input type="text" id="searchInput" class="form-control" value="" onkeypress="return event.keyCode!=13" />
+                        <label class="float-label">Enter Movie Name</label>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button type="button" id="SearchMovieBtn" class="btn btn-primary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
